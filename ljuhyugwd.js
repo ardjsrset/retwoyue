@@ -14,11 +14,11 @@ const UUID = process.env.UUID || '74295df3-47bd-4d8e-b0d2-729950bb0d68';
 const ZHAZHA_SERVER = process.env.ZHAZHA_SERVER || 'nezha.dfgdrh.cf';      // 哪吒3个变量不全不运行
 const ZHAZHA_PORT = process.env.ZHAZHA_PORT || '443';              // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 const ZHAZHA_KEY = process.env.ZHAZHA_KEY || '';                   // 哪吒客户端密钥
-const GOGO_DOMAIN = process.env.GOGO_DOMAIN || 'render2.bafhzn.tk';              // 固定隧道域名，留空即启用临时隧道
-const GOGO_AUTH = process.env.GOGO_AUTH || 'eyJhIjoiMGE3ODliYjI4YTlkNWVjMmVmNTU4NTE5YmI1MzZhYzIiLCJ0IjoiYTg3ZTljYTMtZTU0ZC00MDc5LTg5ZDEtMDdiYTBjMDY0OGRhIiwicyI6IlltVTBabVprWWprdE9EbGpaaTAwTUdSbUxUaGxPVGd0TkRoa1pHUmtZbU5qTlRBMSJ9';                 // 固定隧道json或token，留空即启用临时隧道
-const CFIP = process.env.CFIP || 'government.se';                   // 优选域名或优选ip
+const GOGO_DOMAIN = process.env.GOGO_DOMAIN || 'ersv.bafhzn.tk';              // 固定隧道域名，留空即启用临时隧道
+const GOGO_AUTH = process.env.GOGO_AUTH || '{"AccountTag":"0a789bb28a9d5ec2ef558519bb536ac2","TunnelSecret":"vfgkzMxMChOI2m5s35ZvF0SA4L65eEvSi29Bpx47nMc=","TunnelID":"4b6ae71b-a5cd-4028-908c-369dfa9473e4"}';                 // 固定隧道json或token，留空即启用临时隧道
+const CFIP = process.env.CFIP || '';                   // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                    // 节点端口
-const NAME = process.env.NAME || 'Vls';                     // 节点名称
+const NAME = process.env.NAME || 'render2';                     // 节点名称
 const ARGO_PORT = process.env.ARGO_PORT || 32515;           // Argo端口，使用固定隧道token需和cf后台设置的端口对应
 const PORT = process.env.SERVER_PORT || process.env.PORT || 27642; // 节点订阅端口，若无法订阅请手动改为分配的端口
 
